@@ -1,1 +1,1 @@
-<div id="copyright text-right">© Copyright 2019 Cohen Projects</div>
+<div id="copyright text-right">© Copyright 2019 Cohen Laravel Project</div>
