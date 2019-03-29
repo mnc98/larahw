@@ -14,16 +14,16 @@
 Route::get('/', function()
 {
     return View::make('pages.home');
-});
+})->name('home');
 Route::get('about', function()
 {
     return View::make('pages.about');
-});
+})->name('about');
 Route::get('contact', function()
 {
     return View::make('pages.contact');
-});
+})->name('contact');
 Route::get('login', function()
 {
     return View::make('pages.login');
-});
+})->name('login');
