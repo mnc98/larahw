@@ -19,3 +19,11 @@ Route::get('about', function()
 {
     return View::make('pages.about');
 });
+Route::get('contact', function()
+{
+    return View::make('pages.contact');
+});
+Route::get('login', function()
+{
+    return View::make('pages.login');
+});
