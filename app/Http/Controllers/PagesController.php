@@ -18,4 +18,14 @@ class PagesController extends Controller
     function login() {
         return view('pages.login');
     }
+    function store(Request $request) {
+        $name = $request->name;
+
+        return redirect()->route('thanks',['name' => $name ]);
+    }
+    function thanks($name, Request $request) {
+
+
+        return view('pages.ty')->with(compact('name'));
+    }
 }
